@@ -1,0 +1,105 @@
+body {
+    background-image: url(https://images.samsung.com/br/smartphones/galaxy-s20/images/kv/galaxy-s20_highlights_kv_00.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.barra-navegacao {
+    width: 800px;
+    height: 50px;
+    background: #0652DD;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 2px #d2dae2;
+}
+
+.barra-navegacao:before {
+    position: absolute;
+    content: '';
+    left: -25px;
+    top: 25px;
+    border-top: 25px solid transparent;
+    border-right: 25px solid #d2dae2;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid transparent;
+    z-index: -1;
+}
+
+.barra-navegacao:after {
+    position: absolute;
+    content: '';
+    right: -25px;
+    top: 25px;
+    border-top: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #d2dae2;
+    z-index: -1;
+}
+
+.barra-um {
+    position: absolute;
+    border-top: 25px solid #0652DD;
+    border-right: 50px solid #0652DD;
+    border-bottom: 25px solid #0652DD;
+    border-left: 25px solid transparent;
+    top: 25px;
+    left: -50px;
+    z-index: -2;
+}
+
+.barra-dois {
+    position: absolute;
+    border-top: 25px solid #0652DD;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #0652DD;
+    border-left: 50px solid #0652DD;
+    top: 25px;
+    right: -50px;
+    z-index: -2;
+}
+
+.barra-navegacao a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #d2dae2;
+    padding: 15px 30px;
+    line-height: 3.1;
+}
+
+.barra-navegacao a:hover {
+    background: black;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    color: #d2dae2;
+    margin: 0;
+}
+
+.banner-text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #d2dae2;
+    text-transform: uppercase;
+}
+
+#ph {
+    text-decoration-color: #0652DD;
+    color: #0652DD;
+}
